@@ -6,9 +6,7 @@
   <title>Contact</title>
 </head>
 
-<<<<<<< HEAD
-  var_dump($_POST);
-=======
+
 <body>
   <h1>Contact</h1>
   <form method="post">
@@ -25,7 +23,6 @@
     $entete  = 'MIME-Version: 1.0' . "\r\n";
     $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
     $entete .= 'From: ' . $_POST['email'] . "\r\n";
->>>>>>> 5085bab10293a30e848b07451c1f970f1625f680
 
     $message = '<h1>Message envoyé depuis la page Contact de monsite.fr</h1>
         <p><b>Nom : </b>' . $_POST['nom'] . '<br>
